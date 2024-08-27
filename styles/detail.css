@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+}
+
+.search input {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search input::placeholder {
+    color: #aaa;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav a img {
+    width: 20px;
+    height: 20px;
+}
+
+.article-details {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Ограничиваем ширину текста */
+    margin: 2rem auto; /* Центрируем на странице */
+}
+
+.article-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 2rem; /* Отступы снизу изображения */
+}
+
+.article-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.article-details p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.article-details p strong {
+    font-weight: bold;
+}
+
+.article-details h2 {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.footer {
+    background-color: #fff; /* Цвет фона изменен на белый */
+    color: #333; /* Цвет текста изменен на черный */
+    padding: 1rem; /* Уменьшенный padding для компактности */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer .social-links {
+    display: flex;
+    gap: 1rem; /* Используем gap для равномерных отступов между иконками */
+}
+
+.footer .social-links img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7; /* Добавление прозрачности для иконок */
+}
+
+.footer .social-links img:hover {
+    opacity: 1; /* Убираем прозрачность при наведении */
+}
